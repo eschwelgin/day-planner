@@ -1,12 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.jpg");
+    background-size: 100%;
+    font-size: 1.4em;
 }
 
 h1, 
 h2,
 h3 {
     text-align: center;
-    margin: 20px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .col-sm-10 {
@@ -17,35 +21,39 @@ h3 {
 textarea,
 button {
     border-radius: 5px;
-    border: 1px solid grey;
-    padding: 10px;
+    border: 1px solid black;
+    /* padding: 10px; */
 }
 
 .row>div {
-    padding: 20px;
+    /* padding: 20px; */
     font-weight: bolder;
     font-size: 1.2em;
 }
 
-.past,
+.past>div,
 .past>button,
 .past>textarea {
-    background-color: #adcaff;
+    background-color: rgba(173, 202, 255, 0.5);
     /* color: white; */
 }
-.future,
+.future>div,
 .future>button,
 .future>textarea {
-    background-color: #bacfab;
+    background-color: rgba(186, 207, 171, 0.5);
 }
-.current,
+.current>div,
 .current>button,
 .current>textarea {
-    background-color: #b84f4f;
+    background-color: rgba(184, 79, 79, 0.5);
     color: white;
     font-weight: bolder;
 }
 
 img {
     width: 100%;
+}
+
+.container {
+    margin-bottom: 50px;
 }
