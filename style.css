@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.col-sm-10 {
+    padding: 1px;
+}
+
+.row>div, 
+textarea,
+button {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.row>div {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.past,
+.past>button,
+.past>textarea {
+    background-color: #adcaff;
+    /* color: white; */
+}
+.future,
+.future>button,
+.future>textarea {
+    background-color: #bacfab;
+}
+.current,
+.current>button,
+.current>textarea {
+    background-color: #b84f4f;
+    color: white;
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+}
