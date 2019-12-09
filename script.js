@@ -1,3 +1,11 @@
+function addClick() {
+    $(".save").on("click", function() {
+        id = $(this).parent("div").attr("id")
+        text = $(this).siblings(".col-sm-10").val()
+        localStorage.setItem(id, text)
+    }
+)};
+
 function addExisting () {
     times = [ "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p"]
     $.each(times, function(i, list) {
@@ -6,14 +14,6 @@ function addExisting () {
     })
 addClick()
 }
-
-function addClick() {
-    $(".save").on("click", function() {
-        id = $(this).parent("div").attr("id")
-        text = $(this).siblings(".col-sm-10").val()
-        localStorage.setItem(id, text)
-    }
-)};
 
 function addDraw() {
     times = [ "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p"]
