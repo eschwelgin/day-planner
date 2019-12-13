@@ -1,7 +1,7 @@
 var date =  moment().format("MM/DD/YYYY")
 var time = moment().format("h:mm")
-// var stamp = moment().format("h")
-var stamp = 12
+var stamp = moment().format("h")
+// var stamp = 12
 var hit = false
 
 function addClick() {
